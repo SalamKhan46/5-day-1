@@ -11,7 +11,11 @@ h1{
     font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 60px;
+    color: #5f5f5f;
+}
+h2{
+    font-size: 35px;
     color: #5f5f5f;
 }
 p{
@@ -26,17 +30,18 @@ p{
     border: none;
     text-decoration: none;
     border-radius: 25px;
+    display: inline-block;
 }
 
 
 .banner{
     width: 100%;
-    min-height: 400px;
+    min-height: 500px;
     background-image: url(photo/Group\ 8425.png);
     background-repeat: no-repeat;
     background-position-x:80%;
     background-position-y: 30%;
-    background-size:350px;
+    background-size:380px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -44,10 +49,37 @@ p{
 .banner .banner-content{
     margin: 80px 40px;
 }
+.banner p{
+    margin: 15px 0;
+}
 
 
 .about{
-    height: 100px;
     width: 100%;
-    background: #444;
+    min-height:200px;
+    background-image: url(photo/Frame\ 58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* border: 1px solid; */
+    padding: 0px 50px;
+}
+.about p{
+    padding: 20px 0;
+}
+.about-img{
+    height: 300px;
+    position: relative;
+    width: 50%;
+}
+.about-img img{
+    height: 90%;
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about-content{
+    width: 50%;
+    margin: auto 0;
 }
