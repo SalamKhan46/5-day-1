@@ -31,6 +31,7 @@ p{
     text-decoration: none;
     border-radius: 25px;
     display: inline-block;
+    cursor: pointer;
 }
 
 
@@ -82,4 +83,31 @@ p{
 .about-content{
     width: 50%;
     margin: auto 0;
+}
+
+
+.recipie{
+    padding: 30px 50px;
+    width: 100%;
+}
+.recipie-title{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.recipie-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+.item{
+    border-radius: 10px;
+    width: 45%;
+    padding: 10px;
+    background: #fff7;
+    box-shadow: 10px 10px 35px #aca8a8;
+}
+.item img{
+    width: 100%;
+    /* padding: 10px; */
 }
